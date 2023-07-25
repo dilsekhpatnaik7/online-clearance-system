@@ -1,0 +1,28 @@
+@media print {
+    body {
+        visibility: hidden;
+    }
+    .to-be-printed {
+        visibility: visible;
+        position: absolute;
+        left: 0%;
+        top: 10px;
+        height: auto;
+        width: 100%;
+    }
+    .print-title {
+        color: black;
+        font-weight: 700;
+    }
+    .print-main {
+        visibility: visible;
+        display: block;
+        margin-top: 40px;
+    }
+    .print-main-sign {
+        visibility: visible;
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
