@@ -33,3 +33,6 @@ cd client
 npm install
 npm start
 ```
+
+## Screenshots
+![1](/screenshots/1.png "Optional Title")
