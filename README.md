@@ -6,11 +6,15 @@ React JS, Node JS, Express JS, MongoDB, Tailwind CSS
 
 ## Installation
 Run the Command on your local machine\
-``git clone https://github.com/dilsekhpatnaik7/online-clearance-system.git``
+```
+git clone https://github.com/dilsekhpatnaik7/online-clearance-system.git
+```
 
 
 After Cloning into your local machine run this Command\
-`cd online-clearance-system`
+```
+cd online-clearance-system
+```
 
 
 
