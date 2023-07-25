@@ -6,7 +6,7 @@ React JS, Node JS, Express JS, MongoDB, Tailwind CSS
 
 ## Installation
 Create a ``config.env`` file in the root and add the following
-``
+```
 port = 5000
 db = <YourMongoDBURL>
-``
+```
