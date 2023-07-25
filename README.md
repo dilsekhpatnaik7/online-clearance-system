@@ -35,4 +35,5 @@ npm start
 ```
 
 ## Screenshots
-![1](/screenshots/1.png "Optional Title")
+![1](/screenshots/1.png "LoginPage")
+![1](/screenshots/4.png "AboutPage")
