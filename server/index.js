@@ -1,11 +1,11 @@
-require('dotenv').config({path: '../config.env'});
+require('dotenv').config({path: './config.env'});
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const cors = require('cors')
 app.use(cors({
     credentials: true,
-    origin: 'https://online-clearance-system-backend.vercel.app/'
+    origin: 'https://online-clearance-system-backend.vercel.app/s'
 }));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
