@@ -13,7 +13,7 @@ const AcademicsandHostel = () => {
       navigate('/');
     }
     try {
-      const check = axios.post("https://online-clearance-system-backend.vercel.app/acadhostel", {email: email})
+      const check = axios.post("/acadhostel", {email: email})
       .then((res) => {
         const data = res.data;
         setAcad(data.student.acad_hostel);

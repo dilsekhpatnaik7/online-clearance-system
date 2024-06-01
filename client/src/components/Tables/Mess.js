@@ -14,7 +14,7 @@ const Mess = () => {
       navigate('/');
     }
     try {
-      const check = axios.post("https://online-clearance-system-backend.vercel.app/mess", {email: email})
+      const check = axios.post("/mess", {email: email})
       .then((res) => {
         const data = res.data;
         setMess(data.student.mess);

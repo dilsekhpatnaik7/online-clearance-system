@@ -14,7 +14,7 @@ const Others = () => {
       navigate('/');
     }
     try {
-      const check = axios.post("https://online-clearance-system-backend.vercel.app/others", {email: email})
+      const check = axios.post("/others", {email: email})
       .then((res) => {
         const data = res.data;
         setExtra(data.student.extra);

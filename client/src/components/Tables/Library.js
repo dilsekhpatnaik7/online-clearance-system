@@ -14,7 +14,7 @@ const Library = () => {
       navigate('/');
     }
     try {
-      const check = axios.post("https://online-clearance-system-backend.vercel.app/library", {email: email})
+      const check = axios.post("/library", {email: email})
       .then((res) => {
         const data = res.data;
         setLibrary(data.student.library);
