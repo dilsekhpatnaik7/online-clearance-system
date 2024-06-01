@@ -3,10 +3,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const cors = require('cors')
+
 app.use(cors({
-    credentials: true,
-    origin: 'https://online-clearance-system-backend.vercel.app/s'
+    origin: 'https://online-clearance-system-seven.vercel.app',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
 }));
+
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 require('./db/dbconfig.js')
