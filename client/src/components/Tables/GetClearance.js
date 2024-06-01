@@ -27,7 +27,7 @@ const GetClearance = () => {
             navigate('/');
         }
         try {
-          const check = axios.post("http://localhost:5000/getclearance", {email: email})
+          const check = axios.post("https://online-clearance-system-backend.vercel.app/getclearance", {email: email})
           .then((res) => {
             const data = res.data;
             setName(data.student.name);

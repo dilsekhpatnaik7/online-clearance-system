@@ -27,7 +27,7 @@ const Login = () => {
     }
     
     try {
-      await axios.post("http://localhost:5000/login", {email: email, password: password})
+      await axios.post("https://online-clearance-system-backend.vercel.app/login", {email: email, password: password})
       .then((res) => {
         const data = res.data;
         console.log(data)

@@ -24,7 +24,7 @@ const AccountDetailsandSummary = () => {
             navigate('/');
         }
         try {
-          const check = axios.post("http://localhost:5000/accountdetails", {email: email})
+          const check = axios.post("https://online-clearance-system-backend.vercel.app/accountdetails", {email: email})
           .then((res) => {
             const data = res.data;
             setName(data.student.name);
